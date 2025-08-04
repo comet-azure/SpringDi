@@ -25,6 +25,7 @@ public class DemoApplication {
 		EspressoMachine espressoMachine = new EspressoMachine();
 		// <bean id="espressoMachine" class="com.example.loose.EspressoMachine" />
 		
+		// 메소드 호출
 		CoffeeMaker coffeeMaker = new CoffeeMaker();		
 		coffeeMaker.setCoffeeMachine( espressoMachine  );
 	//	coffeeMaker.setCoffeeMachine( dripCoffeeMachine  );
